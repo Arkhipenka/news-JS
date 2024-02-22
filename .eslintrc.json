@@ -1,7 +1,8 @@
 {
     "plugins": ["prettier", "import"],
     "extends": [
-        "plugin:prettier/recommended",
+        "plugin:recommended",
+        "plugin:@typescript-eslint/recommended",
         "prettier"
     ],
     "parserOptions": {
